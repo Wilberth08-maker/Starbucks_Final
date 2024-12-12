@@ -1,0 +1,122 @@
+*{
+    box-sizing:border-box,
+    margin:0;
+}
+body{
+    font-family: "Nunito", sans-serif;
+}
+.header{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.top-barranav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+}
+.top-barranav .nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+.top-barranav .nav .nav-item .item-image{
+    max-width: 50px ;
+}
+.top-barranav .nav .nav-item a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+.top-barranav .nav .nav-item a:hover{
+    color:#1E3932
+}
+.cookie-banner{
+    padding: 30px;
+    border-top: 1px solid;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    background-color: white;
+}
+.banner-text-container{
+    flex-grow: 1;
+}
+.cookie-banner .banner-text-bold{
+    font-weight: bold;
+}
+.cookie-banner .banner-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cookie-banner .banner-button-container .banner-button{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 10px 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.invisible{
+    display: none;
+}
+.tarjetas{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#contenedor_tarjeta1{
+    background-color: #1E3932;
+}
+#contenedor_tarjeta1 .imagen{
+    width:50%;
+    vertical-align: middle;
+}
+
+#contenedor_tarjeta1 .imagen .imagen_latte{
+    max-width: 100%;
+}
+.texto{
+    color: white;
+    text-align: center;
+    width: 365px;
+}
+.contenedor-interno{
+    display: inline-block;
+}
+#contenedor_tarjeta2{
+    background-color: #0044B4;
+}
+#contenedor_tarjeta2 .imagen{
+    width:50%;
+    vertical-align: middle;
+}
+#contenedor_tarjeta2 .imagen .imagen_starbucks rosa{
+    max-width: 100%;
+}
+#contenedor_tarjeta3{
+    background-color: #D50032;
+}
+#contenedor_tarjeta3 .imagen{
+    width:50%;
+    vertical-align: middle;
+}
+#contenedor_tarjeta3 .imagen .imagen_christmas_blend{
+    max-width: 100%;
+}
+#contenedor_tarjeta5{
+    background-color: #D50032;
+}
+#contenedor_tarjeta5 .imagen{
+    width:50%;
+    vertical-align: middle;
+}
+#contenedor_tarjeta5 .imagen .imagen_jettis{
+    max-width: 100%;
+}
