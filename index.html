@@ -49,6 +49,11 @@
                 </li>
             </ul>
         </nav>
+        <nav class="mobile-menu">
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
     </header>
     <main class="tarjetas">
         <div id="contenedor_tarjeta1">
@@ -66,16 +71,16 @@
             
         </div>
         <div id="contenedor_tarjeta2">
-            <div class="imagen contenedor-interno">
-                <img
-                    class="imagen_starbucks rosa"
-                    src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FHOLIDAY_2024-Spooky.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=740&fit=max&dpr=2" 
-                    alt="Esta de vuelta">
-            </div>
             <div class="texto contenedor-interno">
                 <h3>CELEBREMOS CON LOS FAVORITOS DE LA TEMPORADA</h3>
                 <span>¡Disfruta esta temporada con el regreso de Cranberry Mocha Blanco acompañado de Toffee Nut latte, Red Velvet Latte, Hazelnut Caramel latte y Holiday Cinnamon!</span>
             </div>       
+            <div class="imagen contenedor-interno">
+                <img
+                    class="imagen_starbucks_rosa"
+                    src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FHOLIDAY_2024-Spooky.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=740&fit=max&dpr=2" 
+                    alt="Esta de vuelta">
+            </div>
             
         </div>
         <div id="contenedor_tarjeta3">
@@ -91,6 +96,19 @@
                 <p>#StarbucksLatte</p>
             </div>      
         </div>
+        <div id="contenedor_tarjeta4">
+            <div class="texto contenedor-interno">
+                <h3>RECOMPENSAS EN TU BEBIDA FAVORITA</h3>
+                <span>Sé parte de Starbucks Rewards y obtén más café gratis, promociones exclusivas, accesos a productos antes que nadie y más.</span>
+            </div>       
+            <div class="imagen contenedor-interno">
+                <img
+                    class="imagen_starbucks_rewards"
+                    src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2Fstarbucks_rewards.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2" 
+                    alt="Starbucks Rewards">
+            </div>
+            
+        </div>
         <div id="contenedor_tarjeta5">
             <div class="imagen contenedor-interno">
                 <img
@@ -100,8 +118,10 @@
             </div>
             <div class="texto contenedor-interno">
                 <h3>TODO Y TODOS POR EL PLANETA</h3>
-                <span>Trae tu vaso o termo favorito y obtén $8 de descuento en tu bebida</span>
-                <button>Conoce más</button>
+                <p>Trae tu vaso o termo favorito y obtén $8 de descuento en tu bebida</p>
+                <button class="button_white">
+                    Conoce más
+                </button>
             </div>  
         </div>  
     </main>
@@ -116,10 +136,10 @@
             </span>
         </div>
         <div class="banner-button-container">
-            <button id="closeBannerButton" class="banner-button">Aceptar</button>
-        </div>
-        <script src="./scripts/scripts.js"></script>
+            <button id="closeBannerButton" class="banner-button">Acepto</button>
+        </div> 
+        <script src="./scripts/scripts.js"></script>   
     </div>
-
+    
 </body>
 </html>

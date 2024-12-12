@@ -1,5 +1,5 @@
-const closeButton = document.getElementById('CloseBannerButton')
+const closeButton = document.getElementById('closeBannerButton')
 const cookieBanner = document.getElementById('cookieBanner')
-closeButton.addEventListener('clicK',() => {
+closeButton.addEventListener('click', () => {
     cookieBanner.classList.add('invisible')
 })

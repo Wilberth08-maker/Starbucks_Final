@@ -33,14 +33,16 @@ body{
     color: black;
 }
 .top-barranav .nav .nav-item a:hover{
-    color:#1E3932
+    color:#006241
 }
 .cookie-banner{
     padding: 30px;
     border-top: 1px solid;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 100vw;
+    left: 0;
+    right: 0;
+    width: 100;
     display: flex;
     background-color: white;
 }
@@ -57,9 +59,10 @@ body{
 }
 .cookie-banner .banner-button-container .banner-button{
     background-color: black;
+    border: black solid;
     color: white;
     font-weight: 700;
-    padding: 10px 5px;
+    padding: 10px 10px;
     border-radius: 25px;
     cursor: pointer;
 }
@@ -73,50 +76,100 @@ body{
 }
 #contenedor_tarjeta1{
     background-color: #1E3932;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #contenedor_tarjeta1 .imagen{
     width:50%;
-    vertical-align: middle;
 }
-
 #contenedor_tarjeta1 .imagen .imagen_latte{
     max-width: 100%;
 }
-.texto{
-    color: white;
-    text-align: center;
-    width: 365px;
-}
-.contenedor-interno{
-    display: inline-block;
-}
+
 #contenedor_tarjeta2{
     background-color: #0044B4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 }
 #contenedor_tarjeta2 .imagen{
     width:50%;
-    vertical-align: middle;
 }
-#contenedor_tarjeta2 .imagen .imagen_starbucks rosa{
+#contenedor_tarjeta2 .imagen .imagen_starbucks_rosa{
     max-width: 100%;
 }
 #contenedor_tarjeta3{
     background-color: #D50032;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 }
 #contenedor_tarjeta3 .imagen{
     width:50%;
-    vertical-align: middle;
 }
 #contenedor_tarjeta3 .imagen .imagen_christmas_blend{
     max-width: 100%;
 }
+
+#contenedor_tarjeta4{
+    background-color: #0044B4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+#contenedor_tarjeta4 .imagen{
+    width:50%;
+}
+#contenedor_tarjeta4 .imagen .imagen_starbucks_rewards{
+    max-width: 100%;
+}
+
 #contenedor_tarjeta5{
     background-color: #D50032;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 }
 #contenedor_tarjeta5 .imagen{
     width:50%;
-    vertical-align: middle;
 }
 #contenedor_tarjeta5 .imagen .imagen_jettis{
     max-width: 100%;
+}
+.button_white{
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer; 
+    border: 1px white solid;
+}
+
+.texto{
+    color: white;
+    text-align: center;
+    width: 40%;
+    font-size: 20px;
+    margin: 0 50px;
+}
+.contenedor-interno{
+    display: inline-block;
+}
+.mobile-menu{
+    display:none;
+}
+@media screen and (max-width:870px){
+    .top-barranav{
+        display: none;
+    } 
+    .mobile-menu{
+        display:flex;
+        justify-content: end;
+    }
 }
