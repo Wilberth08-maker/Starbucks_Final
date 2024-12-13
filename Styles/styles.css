@@ -1,5 +1,5 @@
 *{
-    box-sizing:border-box,
+    box-sizing:border-box;
     margin:0;
 }
 body{
@@ -69,107 +69,64 @@ body{
 .invisible{
     display: none;
 }
-.tarjetas{
+.footer{
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, .1);
+    top: 0;
+    background-color: white;
     max-width: 95%;
     margin: 0 auto;
     padding: 20px 0;
+
 }
-#contenedor_tarjeta1{
-    background-color: #1E3932;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#contenedor_tarjeta1 .imagen{
-    width:50%;
-}
-#contenedor_tarjeta1 .imagen .imagen_latte{
-    max-width: 100%;
+.footer_contactos{
+    display:flex;
+    gap: 40px;
+    align-items: flex-start;
 }
 
-#contenedor_tarjeta2{
-    background-color: #0044B4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
+.footer .listas_footer{
+    list-style: none;
+    margin:0;
+
 }
-#contenedor_tarjeta2 .imagen{
-    width:50%;
+.footer .listas_footer li {
+    margin-bottom: 10px;
 }
-#contenedor_tarjeta2 .imagen .imagen_starbucks_rosa{
-    max-width: 100%;
+.footer .listas_footer li a {
+    text-decoration: none;
+    color:#9d9e9f
 }
-#contenedor_tarjeta3{
-    background-color: #D50032;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-}
-#contenedor_tarjeta3 .imagen{
-    width:50%;
-}
-#contenedor_tarjeta3 .imagen .imagen_christmas_blend{
-    max-width: 100%;
+.footer .listas_footer a:hover {
+    color: black;
 }
 
-#contenedor_tarjeta4{
-    background-color: #0044B4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer .icons_footer{
+    top: 0;
+    background-color: white;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
     margin-top: 30px;
-}
-#contenedor_tarjeta4 .imagen{
-    width:50%;
-}
-#contenedor_tarjeta4 .imagen .imagen_starbucks_rewards{
-    max-width: 100%;
+
 }
 
-#contenedor_tarjeta5{
-    background-color: #D50032;
+.icons_list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    max-width: 85%;
+    margin: 0 auto;
+}
+.icons_list{
+    display: flex;
+    list-style: none;
     align-items: center;
-    margin-top: 30px;
-}
-#contenedor_tarjeta5 .imagen{
-    width:50%;
-}
-#contenedor_tarjeta5 .imagen .imagen_jettis{
-    max-width: 100%;
-}
-.button_white{
-    background-color: transparent;
-    color: white;
-    font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 25px;
-    cursor: pointer; 
-    border: 1px white solid;
+    gap: 30px;
+
 }
 
-.texto{
-    color: white;
-    text-align: center;
-    width: 40%;
+.footer .icons_footer .icons_list a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
     font-size: 20px;
-    margin: 0 50px;
-}
-.contenedor-interno{
-    display: inline-block;
-}
-.mobile-menu{
-    display:none;
-}
-@media screen and (max-width:870px){
-    .top-barranav{
-        display: none;
-    } 
-    .mobile-menu{
-        display:flex;
-        justify-content: end;
-    }
 }

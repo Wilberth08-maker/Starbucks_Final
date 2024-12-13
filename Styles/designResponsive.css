@@ -1,0 +1,30 @@
+.mobile-menu{
+    display:none;
+}
+@media screen and (max-width:853px){
+    .top-barranav{
+        display: none;
+    } 
+    .mobile-menu{
+        display:flex;
+        justify-content: end;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Ajustes a las tarjetas */
+    .tarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjeta {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    /* Ajustes al botón */
+    .cta-button {
+        width: 100%;
+    }
+}

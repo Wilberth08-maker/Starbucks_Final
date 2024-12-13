@@ -6,7 +6,9 @@
     <title>Homepage | Starbocks</title>
     <link rel="shortcut icon" href="Imagenes/logo.svg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/eed55e6454.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/designResponsive.css">
     <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="Styles/tarjeta.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -16,7 +18,9 @@
         <nav class="top-barranav">
             <ul class="left-barranav nav">
                 <li class="nav-item">
-                    <img class="item-image" src="Imagenes/logo.svg" alt="">
+                    <a href="index.html">
+                        <img class="item-image" src="Imagenes/logo.svg" alt="">
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a href="">
@@ -109,7 +113,7 @@
             </div>
             
         </div>
-        <div id="contenedor_tarjeta5">
+        <div id="contenedor_tarjeta5">                
             <div class="imagen contenedor-interno">
                 <img
                     class="imagen_jettis"
@@ -119,11 +123,53 @@
             <div class="texto contenedor-interno">
                 <h3>TODO Y TODOS POR EL PLANETA</h3>
                 <p>Trae tu vaso o termo favorito y obtén $8 de descuento en tu bebida</p>
-                <button class="button_white">
-                    Conoce más
-                </button>
-            </div>  
+                <div class="container-button">
+                    <button class="button_white">
+                        Conoce más
+                    </button>
+                </div>
+            </div>
         </div>  
+
+        <div id="contenedor_tarjetasFinal">
+            <div class="tarjeta_izq">
+                <div class="imagen">
+                    <img
+                        class="imagen_noticias"
+                        src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FNoticias.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2"
+                        alt="Noticias"
+                    >
+                </div>
+                <div class="contenido">
+                    <div class="texto">
+                        <p class="text-pink">Consulta los eventos más recientes.</p>
+                    </div>
+                    <div class="button_tarjetas">
+                        <button class="button_pink">Aquí</button>
+                    </div>  
+                </div>
+                           
+            </div>
+                
+            <div class="tarjeta_der">
+                <div class="imagen">
+                    <img
+                        class="imagen_promociones"
+                        src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FTC.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2"
+                        alt="Promociones"
+                    >
+                </div>
+                <div class="contenido">
+                    <div class="texto">
+                        <p>Términos y condiciones.</p>
+                    </div> 
+                    <div class="button_tarjetas">          
+                        <button class="button_blue">Ver más</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+             
     </main>
     
     <div class="cookie-banner" id="cookieBanner">
@@ -140,6 +186,77 @@
         </div> 
         <script src="./scripts/scripts.js"></script>   
     </div>
+    <footer class="footer">
+        <div class="footer_contactos">
+            <div>
+                <ul class="listas_footer">
+                    <li>
+                        <h3>Sobre Nosotros</h3>
+                    </li>
+                    <li>
+                        <a href="">
+                            Trabaja con nosotros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Historias Starbucks
+                        </a>
+                    </li>     
+                </ul>
+                
+            </div>
+            <div>
+            
+                <ul class="listas_footer">
+                    <li>
+                        <h3>Atención al cliente</h3>
+                    </li>
+                    <li>
+                        <a href="">
+                            Contáctanos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Facturas Electrónicas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Formas de comprar
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="icons_footer">
+            <ul class="icons_list nav_icons">
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                
+            </ul>
+
+        </div>
+    </footer>
     
 </body>
 </html>
