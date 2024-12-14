@@ -77,6 +77,11 @@ body{
 #contenedor_tarjeta5 .imagen .imagen_jettis{
     max-width: 100%;
 }
+.container-button{
+    padding: 20px;
+    margin-top: 30px;
+}
+
 .button_white{
     background-color: transparent;
     color: white;
@@ -86,6 +91,9 @@ body{
     cursor: pointer; 
     border: 1px white solid;
 }
+.button_white:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+}
 
 #contenedor_tarjetasFinal{
     display: flex;
@@ -94,7 +102,6 @@ body{
     width: 100%;
     flex-wrap: wrap;
     gap: 30px; 
-    box-sizing: border-box;
     overflow: hidden;
 }
 .tarjeta_izq{
@@ -105,7 +112,6 @@ body{
     align-items: center;
     flex-direction: column;
     width: 48%;
-    box-sizing: border-box;
     height:600px;
     min-height: 700px;
     overflow: hidden;
@@ -131,7 +137,7 @@ body{
     align-items: center;
     text-align: center;
     flex-grow: 1; 
-    padding: 110px; 
+    padding: 130px; 
 }
 
 .tarjeta_izq .texto {
@@ -143,6 +149,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.text-pink{
+    width: 100%;
+}
 
 .button_pink{
     background-color: transparent;
@@ -153,6 +162,9 @@ body{
     cursor: pointer; 
     border: 1px #D50032 solid;
 }
+.button_pink:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+}
 
 .tarjeta_der{
     background-color: #98CDE4;
@@ -162,7 +174,6 @@ body{
     align-items: center;
     flex-direction: column;
     width: 48%;
-    box-sizing: border-box;
     height:600px;
     min-height: 700px;
     overflow: hidden;
@@ -188,7 +199,7 @@ body{
     align-items: center;
     text-align: center;
     flex-grow: 1; 
-    padding: 110px; 
+    padding: 160px; 
 }
 
 .tarjeta_der .texto {
@@ -200,6 +211,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.text-blue{
+    width: 100%;
+}
 .button_blue{
     background-color: transparent;
     color: #003B49;
@@ -209,11 +223,14 @@ body{
     cursor: pointer; 
     border: 1px #003B49 solid;
 }
+.button_blue:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+}
 .texto{
     color: white;
     text-align: center;
     width: 60%;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 50px;
 }
 .contenedor-interno{

@@ -32,8 +32,44 @@ body{
     font-weight: 900;
     color: black;
 }
-.top-barranav .nav .nav-item a:hover{
+.left-barranav .nav-item:hover a {
     color:#006241
+}
+.right_barranav .nav-item:hover a {
+    color:#767777
+}
+
+.header .top-barranav .nav-item .button_ingresar{
+    background-color: transparent;
+    border: black solid;
+    color: black;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px #000000 solid;
+}
+.top-barranav .right_barranav .nav-item:hover .button_ingresar {
+    color: #f8fcff;
+    background-color: rgba(148, 147, 147, 0.68);
+    border: 1px  rgba(156, 154, 154, 0.68);
+} 
+.top-barranav .right_barranav .nav-item:hover .button_unete {
+    color: #f8fcff;
+    background-color: rgba(148, 147, 147, 0.68);
+    border: 1px  rgba(156, 154, 154, 0.68);
+}    
+
+.header .top-barranav .nav-item .button_unete{
+    background-color: black;
+    border: black solid;
+    color: white;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
 }
 .cookie-banner{
     padding: 30px;
@@ -106,8 +142,8 @@ body{
     max-width: 95%;
     margin: 0 auto;
     padding: 20px 0;
-    margin-top: 30px;
-
+    margin-top: 40px;
+    box-shadow: 0 -3px 3px -3px rgba(0, 0, 0, .1);
 }
 
 .icons_list{
@@ -115,18 +151,68 @@ body{
     justify-content: center;
     max-width: 85%;
     margin: 0 auto;
-}
-.icons_list{
     display: flex;
     list-style: none;
     align-items: center;
     gap: 30px;
-
 }
 
 .footer .icons_footer .icons_list a{
     text-decoration: none;
     font-weight: 900;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.footer .barra_footer{
+    top: 0;
+    background-color: white;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-top: 5px;
+
+}
+
+.barra_list{
+    display: flex;
+    justify-content: center;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .barra_footer .barra_list a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #9d9e9f;
+}
+.footer .barra_footer .barra_list a:hover  {
+    color: black;
+}
+
+.derechos_autor{
+    color: #9d9e9f;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.derechos_autor .company_2024 {
+    color: #9d9e9f;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.mx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 12px;
 }
