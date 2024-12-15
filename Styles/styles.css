@@ -33,7 +33,8 @@ body{
     color: black;
 }
 .left-barranav .nav-item:hover a {
-    color:#006241
+    color:#006241;
+    border-bottom: 2px solid #006241;
 }
 .right_barranav .nav-item:hover a {
     color:#767777
@@ -162,6 +163,9 @@ body{
     font-weight: 900;
     color: black;
     font-size: 30px;
+}
+.footer .icons_footer .icons_list a:hover  {
+    color:  rgba(0, 0, 0, 0.3);
 }
 
 .footer .barra_footer{
