@@ -29,12 +29,20 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    
 }
 #contenedor_tarjeta2 .imagen{
     width:50%;
 }
 #contenedor_tarjeta2 .imagen .imagen_starbucks_rosa{
     max-width: 100%;
+}
+.texto2{
+    color: white;
+    text-align: center;
+    width: 60%;
+    font-size: 25px;
+    margin: 0 50px;
 }
 #contenedor_tarjeta3{
     background-color: #D50032;
@@ -126,7 +134,7 @@ body{
 }
 .tarjeta_izq .imagen .imagen_noticias{
     max-width: 100%; 
-    max-height: 150%;
+    max-height: 156%;
     margin-bottom: 20px;
     object-fit: cover;
 }
@@ -137,7 +145,7 @@ body{
     align-items: center;
     text-align: center;
     flex-grow: 1; 
-    padding: 130px; 
+    padding: 160px;
 }
 
 .tarjeta_izq .texto {
@@ -188,7 +196,7 @@ body{
 }
 .tarjeta_der .imagen .imagen_promociones{
     max-width: 100%; 
-    max-height: 150%;
+    max-height: 156%;
     margin-bottom: 20px;
     object-fit: cover;
 }
@@ -199,7 +207,7 @@ body{
     align-items: center;
     text-align: center;
     flex-grow: 1; 
-    padding: 160px; 
+    padding: 192px;
 }
 
 .tarjeta_der .texto {
@@ -236,3 +244,432 @@ body{
 .contenedor-interno{
     display: inline-block;
 }
+.mobile-menu{
+    display:none;
+}
+@media screen and (max-width:930px){
+    .top-barranav{
+        display: none;
+    } 
+    .mobile-menu{
+        display:flex;
+        justify-content: end;
+    }
+    body{
+        background-color: white;
+    }
+}
+@media screen and (min-width:320px) and (max-width: 767px){
+    #contenedor_tarjeta1{
+        background-color: #1E3932;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height:390px;
+        min-height: 380px;
+        overflow: hidden;
+        padding-bottom: 20px;
+    
+    }    
+    #contenedor_tarjeta1 .imagen{
+        width: 100%; 
+        height: 50%; 
+        object-fit: cover; 
+        display: block;  
+    }
+    #contenedor_tarjeta1 .imagen .imagen_latte{
+        max-width: 100%; 
+        max-height: 156%;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    #contenedor_tarjeta2{
+        background-color: #0044B4;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height:390px;
+        min-height: 380px;
+        overflow: hidden;
+        padding-bottom: 20px;
+    
+    }    
+    #contenedor_tarjeta2 .imagen{
+        width: 100%; 
+        height: 50%; 
+        object-fit: cover; 
+        display: block;  
+    }
+    #contenedor_tarjeta2 .imagen .imagen_starbucks_rosa{
+        max-width: 100%; 
+        max-height: 156%;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    #contenedor_tarjeta3{
+        background-color: #D50032;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height:500px;
+        min-height: 500px;
+        overflow: hidden;
+        padding-bottom: 30px;
+    
+    }    
+    #contenedor_tarjeta3 .imagen{
+        width: 100%; 
+        height: 50%; 
+        object-fit: cover; 
+        display: block;  
+    }
+    #contenedor_tarjeta3 .imagen .imagen_christmas_blend{
+        max-width: 100%; 
+        max-height: 156%;
+        object-fit: cover;
+    }
+
+    #contenedor_tarjeta4{
+        background-color: #0044B4;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height:390px;
+        min-height: 380px;
+        overflow: hidden;
+        padding-top: 20px;
+    
+    }    
+    #contenedor_tarjeta4 .imagen{
+        width: 100%; 
+        height: 50%; 
+        object-fit: cover; 
+        display: block;  
+    }
+    #contenedor_tarjeta4 .imagen .imagen .imagen_starbucks_rewards{
+        max-width: 100%; 
+        max-height: 156%;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    #contenedor_tarjeta5{
+        background-color: #D50032;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height:100%;
+        min-height: 500px;
+        overflow: hidden;
+        padding-bottom: 20px;
+    
+    }    
+    #contenedor_tarjeta5 .imagen{
+        width: 100%; 
+        height: 50%; 
+        object-fit: cover; 
+        display: block;  
+    }
+    #contenedor_tarjeta5 .imagen .imagen_jettis{
+        max-width: 100%; 
+        max-height: 156%;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+    
+    .container-button{
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    .button_white{
+        background-color: transparent;
+        color: white;
+        font-weight: 700;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer; 
+        border: 1px white solid;
+    } 
+
+    .texto {
+         font-size: 15px;
+          margin: 0 50px;
+    }
+ 
+    #contenedor_tarjetasFinal {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .tarjeta_izq{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%!important;
+        height:480px!important;
+        min-height: 480px!important;
+        overflow: hidden;
+    }
+
+    .tarjeta_izq .contenido{
+        padding: 85px;
+
+    }
+    .tarjeta_der{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%!important;
+        height:480px!important;
+        min-height: 480px!important;
+        overflow: hidden;
+    }
+
+    .tarjeta_der .contenido{
+        padding: 85px;
+
+    }
+}  
+    
+    
+
+@media screen and (min-width:768px) and (max-width: 1023px){
+    .texto {
+        font-size: 15px;
+        margin: 0 50px;
+    }
+
+    .texto2 {
+        font-size: 15px;
+        margin: 0 540px;
+    }
+
+    .button_white { 
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .button_pink {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .button_blue {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .tarjeta_izq {
+        background-color: #F6BFD9;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 47%!important;
+        height: 420px!important;
+        min-height: 420px!important;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .tarjeta_izq .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        flex-grow: 1;
+        padding: 70px!important;
+        margin-top: 7px;
+    }
+    .tarjeta_der {
+        background-color: #98CDE4;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 47%!important;
+        height: 420px!important;
+        min-height: 420px!important;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .tarjeta_der .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        flex-grow: 1;
+        padding: 65px!important;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1439px){
+    .tarjeta_izq {
+        background-color: #F6BFD9;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 48%;
+        height: 602px;
+        min-height: 630px;
+        overflow: hidden;
+        margin-top: 0px;
+    }
+
+
+
+    .tarjeta_izq .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        flex-grow: 1;
+        padding: 95px;
+        margin-top: -6px;
+    }
+
+    .tarjeta_der {
+        background-color: #98CDE4;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 48%;
+        height: 602px;
+        min-height: 630px;
+        overflow: hidden;
+        margin-top: 0px;
+    }
+
+
+
+    .tarjeta_der .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        flex-grow: 1;
+        padding: 95px;
+        margin-top:20px;
+    }
+}
+
+@media screen and (min-width: 2560px) and (max-width: 3839px) {
+    /* Estilos para el rango 4K - 2560px */
+    .texto {
+        font-size: 40px;
+        margin: 0 50px;
+    }
+
+    .texto2 {
+        font-size: 40px;
+        margin: 0 540px;
+    }
+
+    .button_white { 
+        padding: 5px 30px;
+        font-size: 35px;
+    }
+
+    .button_pink {
+        padding: 5px 30px;
+        font-size: 35px;
+    }
+
+    .button_blue {
+        padding: 5px 30px;
+        font-size: 35px;
+    }
+
+    .tarjeta_izq {
+        background-color: #F6BFD9;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 48%;
+        height: 602px;
+        min-height: 1400px;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+
+    .tarjeta_izq .imagen .imagen_noticias {
+        max-width: 100%;
+        max-height: 280%;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    .tarjeta_izq .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        flex-grow: 1;
+        padding: 130px;
+        margin-top: 169px;
+    }
+
+    .tarjeta_der {
+        background-color: #98CDE4;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 48%;
+        height: 602px;
+        min-height: 1400px;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+
+    .tarjeta_der .imagen .imagen_promociones {
+        max-width: 100%;
+        max-height: 280%;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    .tarjeta_der .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        flex-grow: 1;
+        padding: 130px;
+        margin-top: 169px;
+    }
+}
+
+
